@@ -48,18 +48,19 @@ cp -r app-dev-workflow/skills/app-dev-workflow ~/.agents/skills/
 
 ```
 skills/app-dev-workflow/
-├── SKILL.md                 六阶段主控（触发、过关标准、总纪律、规则分层）
+├── SKILL.md                 六阶段主控（双模式门禁、总纪律、Red Flags、推进模式）
 ├── references/
-│   ├── prototype.md         原型规范（情绪板、生图规范、成本表）
-│   ├── dev.md               选型、开发纪律、四层测试法
-│   ├── architecture.md      开发前架构设计（最小架构、数据模型、AD 决策记录）
-│   └── deploy.md             部署决策（五触发条件、三形态、上线路径）
-└── assets/templates/        四个文档模板（需求/数据模型/测试清单/架构决策）
+│   ├── prototype.md         阶段1 · 原型规范（情绪板、AI 味自检、生图决策、成本直觉）
+│   ├── architecture.md      阶段2 · 架构与初始化（最小架构、AD 决策、初始化清单）
+│   ├── dev.md               阶段3/4 · 开发纪律（任务→可验证目标）、四层测试法
+│   └── deploy.md            阶段5 · 部署决策（五触发条件、三形态、上线路径）
+├── assets/templates/        五个文档模板（需求/数据模型/测试清单/架构决策/复盘）
+└── tests/baseline-prompts.md 基线测试集（RED/GREEN 跑法与 5 个基线场景）
 ```
 
 ## 状态
 
-**v0.2.3 · 早期版本**——流程设计与文档模板完备，但**尚未经大量真实项目实战验证**；欢迎在真实项目中使用并提 issue 反馈。参考实现示例待补（须经使用者验收后收录）。
+**v0.2.4 · 早期版本**——流程设计与文档模板完备，但**尚未经大量真实项目实战验证**；欢迎在真实项目中使用并提 issue 反馈。参考实现示例待补（须经使用者验收后收录）。
 
 ## 设计出处
 
