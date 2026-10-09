@@ -44,6 +44,8 @@ cp -r app-dev-workflow/skills/app-dev-workflow ~/.agents/skills/
 
 安装后**新会话**中说"我要做一个 XX 应用"即自动触发，或以 `/app-dev-workflow` 显式调用。
 
+**可选搭配**：[image-forge](https://github.com/x-rush/image-forge)——开源生图引擎（多提供商、前置确认、花费预算）。本流程的阶段 1 可能用到界面概念图/素材生成，装它可自动化该环节；不装也不影响流程完整性（手动遵守生图前置确认即可）。
+
 ## 结构
 
 ```
